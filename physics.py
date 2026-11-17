@@ -69,7 +69,9 @@ def Formula():
     elif option == "5":
         ohm()
 
-
+    else:
+        print("Invalid Option")
+        Formula()
 a = 1
 while a == 1:
     Formula()
